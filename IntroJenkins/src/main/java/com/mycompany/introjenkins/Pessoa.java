@@ -14,7 +14,7 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private String email;
-    private String teste;
+    private String teste2;
 
     public String getNome() {
         return nome;
