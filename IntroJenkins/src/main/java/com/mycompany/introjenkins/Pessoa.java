@@ -13,6 +13,7 @@ public class Pessoa {
     
     private String nome;
     private String cpf;
+    private String email;
 
     public String getNome() {
         return nome;
@@ -28,6 +29,14 @@ public class Pessoa {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
     
     
