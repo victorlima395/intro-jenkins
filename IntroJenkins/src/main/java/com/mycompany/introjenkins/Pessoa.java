@@ -14,7 +14,8 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private String email;
-    private String teste2;
+    private String teste;
+    private String bairro;
 
     public String getNome() {
         return nome;
@@ -46,6 +47,14 @@ public class Pessoa {
 
     public void setTeste(String teste) {
         this.teste = teste;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
     }
     
     
